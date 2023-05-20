@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-
+//sucessful push
 // import Header from "./components/Header";
 import Home from "./components/Home";
 import Footer from "./components/Footer";
@@ -13,6 +13,7 @@ import "./styles/Home.scss";
 import "./styles/Footer.scss";
 import "./styles/ContactUs.scss";
 import "./styles/mediaquery.scss";
+import "./styles/MyNavbar.scss";
 import "./styles/MyNavbar.scss";
 
 
