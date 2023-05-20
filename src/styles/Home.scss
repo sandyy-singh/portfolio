@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika&family=Open+Sans:wght@600&family=Roboto:ital,wght@0,100;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap');
+
+@import "colors";
+
+.home {
+    width: 100%;
+    height: 100vh;
+    background: no-repeat url(../assets/i7.jpg);
+    background-size: cover;
+
+    >main {
+        position: absolute;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        padding: 2rem;
+        justify-content: center;
+
+        >h1 {
+            text-transform: capitalize;
+            font: 350 6rem $text;
+            color: rgb(224, 217, 217);
+            font-weight: bold;
+
+            &:hover {
+                color: rgb(237, 205, 205);
+                text-shadow: 2px 5px 10px rgb(112, 103, 103);
+            }
+
+        }
+
+        >p {
+            width: 50%;
+            color: rgb(228, 223, 223);
+            text-align: justify;
+            font-size: 13px;
+
+            &:hover {
+                color: rgb(228, 223, 223);
+                font-weight: bold;
+
+            }
+
+            >button {
+                border: none;
+                padding: 5px;
+                border-radius: 5px;
+                background-color: rgb(92, 92, 230);
+                color: $first;
+                width: 100px;
+                font: 500 1rem $text;
+
+                &:hover {
+                    opacity: 0.7;
+                }
+            }
+        }
+    }
+}
+
+.home2 {
+
+    width: 100%;
+    height: 100vh;
+    background-color: $second;
+    ;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    >div {
+        width: 85%;
+        height: 85vh;
+        background-color: $third;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        border-radius: 200px 0 0 200px;
+
+        >img {
+            width: 30%;
+        }
+
+        >div {
+            width: 45%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 5rem;
+            height: 100vh;
+
+            >h1 {
+                color: $first ;
+                font-weight: 900;
+
+                &:hover {
+                    color: rgb(237, 205, 205);
+                    text-shadow: 2px 5px 10px rgb(112, 103, 103);
+                }
+            }
+
+            >p {
+                padding: 5rem;
+                letter-spacing: 1px;
+                word-spacing: 5px;
+                line-height: 170%;
+                color: $first ;
+                text-align: justify;
+                font: italic 100 1.2re 100;
+                letter-spacing: 1px;
+                padding: 10px;
+            }
+
+        }
+
+    }
+
+}
+
+
+.home3 {
+    width: 100%;
+    height: 100vh;
+    background-color: $second;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+
+    >div {
+        width: 80%;
+        height: 80%;
+        background-color: $third;
+        border-radius: 0 200px 200px 0;
+        box-sizing: border-box;
+        padding: 10px;
+        display: flex;
+        flex-direction: row;
+        margin: 5px;
+
+        >div {
+            width: 45%;
+            height: 85%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            >h1 {
+                color: $first ;
+                font-weight: 900;
+                &:hover {
+                    color: rgb(237, 205, 205);
+                    text-shadow: 2px 5px 10px rgb(112, 103, 103);
+                }
+            }
+
+            >p {
+                padding: 5rem;
+                letter-spacing: 1px;
+                word-spacing: 3px;
+                line-height: 120%;
+                color: $first ;
+                text-align: justify;
+                font: italic 100 1.2re 100;
+                letter-spacing: 1px;
+                padding: 10px;
+            }
+
+            >img {
+
+                height: 50%;
+                width: 60%;
+            }
+        }
+
+    }
+}
+
+
+.home4 {
+    width: 100%;
+    height: 100vh;
+    background-color: $second;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    >div {
+        background-color: $third;
+        border-radius: 200px 0 0 200px;
+        width: 80%;
+        height: 80vh;
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+
+        >h1 {
+            color: $first;
+            text-transform: capitalize;
+            width: 140px;
+            padding: 0.5rem;
+            font-weight: 900;
+
+            &:hover {
+                color: rgb(237, 205, 205);
+                text-shadow: 2px 5px 10px rgb(112, 103, 103);
+            }
+
+        }
+
+        >article {
+            display: flex;
+            flex-direction: row;
+            margin: 2rem 0;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+
+            >div {
+                animation: imgUp 0.7 linear infinite alternate;
+                margin: 15px;
+                height: 10rem;
+                width: 10rem;
+                background-color: $first;
+                border-radius: 50%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                color: $dark1;
+                cursor: pointer;
+                text-align: center;
+                align-items: center;
+                transition: all 0.5s;
+
+                &:hover {
+                    filter: invert(1);
+                }
+
+                svg {
+                    font-size: 4rem;
+                }
+
+                p {
+                    font: 900 1.2rem $text2
+                }
+            }
+        }
+    }
+
+}
+
+
+
+
+    .gallery {
+
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 14px;
+        background-color: $second;
+        align-items: flex-start;
+        justify-content: space-between;
+    
+       
+    
+    
+    
+        >.img11 {
+            width: 400px;
+            height: 300px;
+            margin: 15px;
+            border-radius: 25px;
+            border: 5px solid gray;
+            &:hover {
+                border-radius: 5px solid rgb(104, 96, 96);
+            }
+        }
+    }
+
+

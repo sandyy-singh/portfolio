@@ -1,0 +1,167 @@
+@import "colors";
+
+@media screen and (max-width:1200px) {
+    .gallery {
+        display: flex;
+
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+        >.img11 {
+            width: 250px;
+            height: 200px;
+            margin: 15px;
+            border-radius: 25px;
+            border: 5px solid gray;
+
+            &:hover {
+                border-radius: 5px solid rgb(104, 96, 96);
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width:906px) {
+    .home2 {
+        >div {
+            width: 55%;
+            height: 100vh;
+            display: flex;
+            flex-direction: column-reverse;
+            width: 100%;
+            align-items: center;
+            justify-content: flex-start;
+
+            >img {
+                margin-top: 25px;
+                width: 20%;
+            }
+
+            >div {
+                width: 85%;
+                height: 80vh;
+
+            }
+
+        }
+
+    }
+
+    .contact {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        >main {
+            border-radius: 85x;
+            width: 100%;
+
+            >form {
+                >div {
+                    width: 100%;
+
+                    >label {
+                        width: 15%;
+                    }
+
+                    >input {
+                        width: 100%;
+                    }
+                }
+                >button{
+                    width: 120px
+                }
+            }
+        }
+    }
+
+    .home3 {
+        >div {
+            height: 100vh;
+            width: 55vh;
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            align-items: center;
+            justify-content: center;
+
+            >div {
+                width: 85%;
+                height: 80vh;
+            }
+
+            >img {
+                margin-top: 25px;
+                width: 20%;
+            }
+        }
+
+    }
+
+    .home {
+        >main {
+            >h1 {
+                font: 150 4rem $text;
+                font-weight: bold;
+                text-align: center;
+            }
+
+            >p {
+                width: 80%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:600px) {
+    .home4 {
+
+
+        >div {
+            width: 100%;
+            border-radius: 55px;
+
+            >artical {
+                display: flex;
+                flex-direction: column;
+
+                >div {
+                    margin: 10px;
+                    height: 7rem;
+                    width: 7rem;
+                }
+            }
+
+        }
+
+    }
+
+    .home3 {
+        >div {
+            width: 100%;
+            border-radius: 55px;
+        }
+
+    }
+
+    .home {
+        >main {
+            >h1 {
+                font: 150 4rem $text;
+                font-weight: bold;
+                text-align: center;
+            }
+        }
+    }
+
+    .home2 {
+        >div {
+            width: 100%;
+            border-radius: 55px;
+        }
+    }
+
+}

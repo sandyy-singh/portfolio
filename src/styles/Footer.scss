@@ -1,0 +1,58 @@
+@import "colors";
+
+footer {
+    background-color: $first;
+    height: 12vh;
+    width: 100%;
+    color: $dark1;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    // position: sticky;
+    // bottom: 0%;
+    // z-index: 1;
+   
+
+    >div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        >h1 {
+            margin-top: 10px;
+            font: 700 2rem $text;
+            text-transform: uppercase;
+            color: $third;
+        }
+
+        >p {
+            font: 500 1.2rem $text;
+
+        }
+        h5{
+            margin-top: 10px;
+            text-align: center;
+        }
+        div{
+           display: flex; 
+           flex-direction: row;
+           align-items: center;
+           
+
+           a{
+            color: $dark1;
+            margin: 10px;
+            font: 900 1rem $text2;
+             &:hover{
+                color:$third;
+             }
+           }
+        }
+
+
+
+    }
+
+
+
+}
