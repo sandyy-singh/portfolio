@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/reactproject/static/css/main.b8b66293.css",
+    "main.js": "/reactproject/static/js/main.c504e87d.js",
+    "static/media/i4.jpg": "/reactproject/static/media/i4.905e4a80030c7843c6e6.jpg",
+    "static/media/i2.jpg": "/reactproject/static/media/i2.3c88cbcebfe748cdc033.jpg",
+    "static/media/i3.jpg": "/reactproject/static/media/i3.d134295dec5c6c740f7a.jpg",
+    "static/media/i6.jpg": "/reactproject/static/media/i6.852f8a34faabc1f27927.jpg",
+    "static/media/exp1.png": "/reactproject/static/media/exp1.fd8be621aa2b45a73295.png",
+    "static/media/11.png": "/reactproject/static/media/11.0b3ee39bba6f1a5ee547.png",
+    "static/media/sandeep_singh.png": "/reactproject/static/media/sandeep_singh.4422eaa336ae5d40d64d.png",
+    "static/media/sandy1.jpg": "/reactproject/static/media/sandy1.6c79e91c9ef965d8d695.jpg",
+    "static/media/i5.jpg": "/reactproject/static/media/i5.c044425b6c685ecba262.jpg",
+    "static/media/i1.jpg": "/reactproject/static/media/i1.af6609c9da0686bd0807.jpg",
+    "index.html": "/reactproject/index.html",
+    "main.b8b66293.css.map": "/reactproject/static/css/main.b8b66293.css.map",
+    "main.c504e87d.js.map": "/reactproject/static/js/main.c504e87d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b8b66293.css",
+    "static/js/main.c504e87d.js"
+  ]
+}
